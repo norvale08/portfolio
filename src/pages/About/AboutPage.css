@@ -208,9 +208,11 @@ section .row .columns .skill img:hover {
 }
 
 .sobre-mi-container {
-    display: grid;
-    grid-template-columns: 30% 68%;
-    grid-gap: 2rem;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .sobre-mi-img-container{
@@ -219,6 +221,11 @@ section .row .columns .skill img:hover {
     justify-content: center;
     align-items: flex-end;
     -webkit-align-items: flex-end;
+}
+
+.sobre-mi-info {
+    width: 100%;
+    max-width: 900px;
 }
 
 .sobre-mi-info p{

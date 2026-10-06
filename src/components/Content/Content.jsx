@@ -37,7 +37,7 @@ const Content = () => (
                 <div className="redes-sociales">
                     <a href="https://www.linkedin.com/in/victor-alan-carvajal-dom%C3%ADnguez-636635441" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200"><i className="fab fa-linkedin"></i></a>
                     <a href="https://github.com/norvale08/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1400"><i className="fab fa-github"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800"><i className="fab fa-whatsapp"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=526442283612" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800"><i className="fab fa-whatsapp"></i></a>
                 </div>
                 <div className="wrapper">
                     <a className="button" href="https://www.linkedin.com/in/victor-alan-carvajal-dom%C3%ADnguez-636635441" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1200">
@@ -52,7 +52,7 @@ const Content = () => (
                         </div>
                         <span>Github</span>
                     </a>
-                    <a className="button" href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800">
+                    <a className="button" href="https://api.whatsapp.com/send?phone=526442283612" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800">
                         <div className="icon">
                             <i className="fab fa-whatsapp"></i>
                         </div>

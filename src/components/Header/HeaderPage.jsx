@@ -33,7 +33,7 @@ const HeaderPage = () => {
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
             <NavLink className="logo" to="/" >
-                <p>=(<span>NAHUEL61920</span>)=></p>
+                <p>Victor Alan Carvajal Dominguez</p>
             </NavLink>
 
             <nav className="navbar">

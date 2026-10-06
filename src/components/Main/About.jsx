@@ -40,24 +40,13 @@ const About = () => (
                     <li>
                         <p>
                             <span>
-                                <FormattedMessage
-                                    id='years'
-                                    defaultMessage='Age:'
-                                />
-                            </span>
-                            25
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <span>
                                 Hobbies:{" "}
                             </span>
                                 Chess, Football and Programming
                         </p>
                     </li>
                     <li>
-                        <p><span>Email:</span> estebancarrizo619@gmail.com</p>
+                        <p><span>Email:</span> domicid0211@hotmail.com</p>
                     </li>
                     <li>
                         <p>
@@ -67,7 +56,10 @@ const About = () => (
                                     defaultMessage='From:'
                                 />
                             </span>
-                            Tucumán, Argentina
+                            <span>
+                                {" "}
+                            </span>
+                             Bácum, Sonora, Mexico
                         </p>
                     </li>
                 </ul>

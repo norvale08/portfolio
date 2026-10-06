@@ -34,14 +34,14 @@
 
 .wrapper {
     margin: 2rem;
+    display: flex;
+    justify-content: center;
 }
 .wrapper .button{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     height: 60px;
     width: 60px;
-    float: left;
     margin: 0 2rem;
     overflow: hidden;
     color: #000;

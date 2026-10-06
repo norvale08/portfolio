@@ -24,7 +24,7 @@ const Contact = () => (
             <TypeAnimation
                 className="site-contacto"
                 sequence={[
-                    'Gmail',
+                    'Email',
                     1500,
                     'WhatsApp',
                     1500,
@@ -49,10 +49,10 @@ const Contact = () => (
                     <span className="fab fas fa-envelope"></span>
                 </div>
                 <div className="text">
-                    Gmail
+                    Email
                 </div>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="https://api.whatsapp.com/send?phone=526442283612" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>

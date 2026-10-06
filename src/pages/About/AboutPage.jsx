@@ -6,13 +6,9 @@ import HeaderPage from '../../components/Header/HeaderPage';
 import Footer from '../../components/Footer/Footer';
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
-import cv from '../../cv/cv.pdf';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
-
-/* Img */
-import imgabout from '../../img/home.jpg';
 
 const About = () => {
 
@@ -39,16 +35,6 @@ const About = () => {
       <main>
         <section className="sobre-mi-seccion" id="sobre-mi">
           <div className="sobre-mi-container">
-            <div className="sobre-mi-img-container">
-              <img src={imgabout} alt="" className="sobre-mi-img" />
-              
-              <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.pdf" className="btn-codigo cv buttonDownload">
-                  <FormattedMessage
-                      id='btn-cv'
-                      defaultMessage='Download CV'
-                  />
-              </a>
-            </div>
             <div className="sobre-mi-info">
               <p>
                 <FormattedMessage

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../pages/Contact/ContactPage.css'
 /* TypedJs */
-import Typical from 'react-typical';
+import { TypeAnimation } from 'react-type-animation';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -21,18 +21,24 @@ const Contact = () => (
                 id='contact-info'
                 defaultMessage='Contact me by: '
             />
-            <Typical
+            <TypeAnimation
                 className="site-contacto"
-                loop={Infinity}
-                wrapper="b"
-                steps={[
-                    'Gmail', 1500,
-                    'WhatsApp', 1500,
-                    'Instragram', 1500,
-                    'Telegram', 1500,
-                    'Linkedin', 1500,
-                    'Github', 1500,
+                sequence={[
+                    'Gmail',
+                    1500,
+                    'WhatsApp',
+                    1500,
+                    'Instragram',
+                    1500,
+                    'Telegram',
+                    1500,
+                    'Linkedin',
+                    1500,
+                    'Github',
+                    1500,
                 ]}
+                wrapper="b"
+                repeat={Infinity}
             />
 
         </h3>

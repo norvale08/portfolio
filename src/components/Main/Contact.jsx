@@ -28,10 +28,6 @@ const Contact = () => (
                     1500,
                     'WhatsApp',
                     1500,
-                    'Instragram',
-                    1500,
-                    'Telegram',
-                    1500,
                     'Linkedin',
                     1500,
                     'Github',
@@ -44,7 +40,7 @@ const Contact = () => (
         </h3>
 
         <div className="icons">
-            <a href="mailto:estebancarrizo619@gmail.com" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="mailto:domicid0211@hotmail.com" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -68,31 +64,7 @@ const Contact = () => (
                     Whatsapp
                 </div>
             </a>
-            <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
-                <div className="layer">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span className="fab fa-instagram"></span>
-                </div>
-                <div className="text">
-                    Instagram
-                </div>
-            </a>
-            <a href="https://t.me/estebanU20" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
-                <div className="layer">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span className="fab fa-telegram"></span>
-                </div>
-                <div className="text">
-                    telegram
-                </div>
-            </a>
-            <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="https://www.linkedin.com/in/victor-alan-carvajal-dom%C3%ADnguez-636635441" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -104,7 +76,7 @@ const Contact = () => (
                     Linkedin
                 </div>
             </a>
-            <a href="https://github.com/Nahuel61920/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="https://github.com/norvale08/" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>

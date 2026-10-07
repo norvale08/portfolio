@@ -115,11 +115,6 @@ function ProjectApp() {
                         </a>
                     </div>
                     <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal10(!estadoModal10)}>
-                            <img src={proyectsImgApp(`./proyecto-app-10.jpg`)} alt="" className="projects__img" />
-                        </a>
-                    </div>
-                    <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal9(!estadoModal9)}>
                             <img src={proyectsImgApp(`./proyecto-app-9.jpg`)} alt="" className="projects__img" />
                         </a>
@@ -144,26 +139,6 @@ function ProjectApp() {
                             <img src={proyectsImgApp(`./proyecto-app-5.jpg`)} alt="" className="projects__img" />
                         </a>
                     </div>
-                    <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal4(!estadoModal4)}>
-                            <img src={proyectsImgApp(`./proyecto-app-4.jpg`)} alt="" className="projects__img" />
-                        </a>
-                    </div>
-                    <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal3(!estadoModal3)}>
-                            <img src={proyectsImgApp(`./proyecto-app-3.jpg`)} alt="" className="projects__img" />
-                        </a>
-                    </div>
-                    <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal2(!estadoModal2)}>
-                            <img src={proyectsImgApp(`./proyecto-app-2.jpg`)} alt="" className="projects__img" />
-                        </a>
-                    </div>
-                    <div className="projects__item">
-                        <a onClick={() => cambiarEstadoModal1(!estadoModal1)}>
-                            <img src={proyectsImgApp(`./proyecto-app-1.jpg`)} alt="" className="projects__img" />
-                        </a>
-                    </div>
                 </section>
             </main>
             <Modal
@@ -172,25 +147,25 @@ function ProjectApp() {
             >
                 <div className="content-modal">
                     <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-18-com.png`)} alt="" /></div>
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-18.png`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                CoinPlus
+                                AUDITECHME APP
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-18-p1'
-                                    defaultMessage='An app that offers exchange services for all the cryptocurrencies of the Ethereum network. You can convert dollars into cryptocurrencies, change to others and sell them to be cashed in dollars.'
+                                    defaultMessage='Transforming the World of Auditing and Compliance in Italy'
                                 />
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-18-p2'
-                                    defaultMessage='The application has an authentication system, so that the user can access their account and carry out the operations they want, it also has a section where you can see the evolution of the different cryptocurrencies.'
+                                    defaultMessage='The essential purpose of AUDITECHME is to enhance efficiency in audits, reinforce information security, and simplify access to critical data, all while keeping a constant focus on innovation.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://coin-plus.vercel.app/" target="_blank">https://coin-plus.vercel.app/</a>
+                                <span>Link:</span> <a href="https://grctechme.com/" target="_blank">https://grctechme.com/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -201,13 +176,8 @@ function ProjectApp() {
                                 </span>
                                 <div className="eins-modal-tec-2">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" alt="" />
-                                </div>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/googlecloud/googlecloud-original.svg" alt="" />
+                                   </div>
                             </div>
                         </div>
                     </div>
@@ -223,16 +193,16 @@ function ProjectApp() {
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-17-com.png`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                PI Dogs
+                                MOVIEXD - Movie Catalog with Vue
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-17-p2'
-                                    defaultMessage='This project consisted of the development of a SPA (Single Page Application) which is developed with the neumorphism style, makes use of a data API (The Dog API), and then part of the information is extracted and stored in a Database. of Data, (PostgreSQL) so that it can be used later at convenience.'
+                                    defaultMessage='An interactive Single Page App (SPA) that consumes the TMDB API to display popular movies, featuring real-time search, genre filters, and a trailer player. Developed using Vue 3, Vite, and modern CSS, highlighting reactive components and responsive design.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://pi-dogs-main-ashy.vercel.app/" target="_blank">https://pi-dogs-main-ashy.vercel.app/</a>
+                                <span>Link:</span> <a href="https://pelisxd.netlify.app/" target="_blank">https://pelisxd.netlify.app/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -242,12 +212,10 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/vuejs/vuejs-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/css3/css3-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/vitejs/vitejs-original.svg" alt="" />
 
                                 </div>
                             </div>
@@ -265,16 +233,16 @@ function ProjectApp() {
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-16.jpg`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                Weather App
+                                Weather API
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-16-p2'
-                                    defaultMessage='It allows you to search for the weather of the city you choose, you can delete the city you searched for and also see more details of the city.'
+                                    defaultMessage='Web app with the OpenWeatherMap API that displays current temperature and weather when searching for a city'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://github.com/Nahuel61920/Weather-App-React" target="_blank">https://github.com/Nahuel61920/Weather-App-React</a>
+                                <span>Link:</span> <a href="https://clima-api-jicm.netlify.app/" target="_blank">https://clima-api-jicm.netlify.app</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -284,10 +252,9 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/html5/html5-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/css3/css3-original.svg" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -304,16 +271,16 @@ function ProjectApp() {
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-15.jpg`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                Stickers App
+                                Vision Craft
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-15-p2'
-                                    defaultMessage='The app extracts data from the giphy API, to search for the stickers that the user wants'
+                                    defaultMessage='A web app for creating visual boards with images and text. Users can arrange, resize, and export their designs as PNG or JSON. It also supports large poster printing.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Stickers-App/" target="_blank">https://nahuel61920.github.io/Stickers-App/</a>
+                                <span>Link:</span> <a href="https://vision-craft-delta.vercel.app/" target="_blank">https://vision-craft-delta.vercel.app</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -323,10 +290,18 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" alt="TypeScript" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/astro.svg" alt="Astro" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg" alt="React" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/daisyui.svg" alt="DaisyUI" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/konva.svg" alt="Konva" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/vercel/vercel-original.svg" alt="Vercel" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/unsplash.svg" alt="Unsplash API" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/pexels.svg" alt="Pexels API" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/bun/bun-original.svg" alt="Bun" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/semanticrelease.svg" alt="semantic-release" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/githubactions.svg" alt="GitHub Actions" />
                                 </div>
                             </div>
                         </div>
@@ -344,16 +319,16 @@ function ProjectApp() {
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-14.jpg`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                Music player
+                                JauntJar 
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-14-p2'
-                                    defaultMessage='Small music player created with javascript, allows you to play, pause, fast forward and skip the songs'
+                                    defaultMessage='A private web app for planning and tracking trips. It lets users save visited places, plan future destinations, rate travel experiences, and view maps and travel statistics.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Music-player/" target="_blank">https://nahuel61920.github.io/Music-player/</a>
+                                <span>Link:</span> <a href="https://trips.sgmr.es/" target="_blank">https://trips.sgmr.es</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -363,9 +338,11 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/laravel/laravel-original.svg" alt="Laravel" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/php/php-original.svg" alt="PHP" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/livewire.svg" alt="Livewire" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/vitejs/vitejs-original.svg" alt="Vite" />
                                 </div>
                             </div>
                         </div>
@@ -382,16 +359,16 @@ function ProjectApp() {
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-13.jpg`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                GitHub-User
+                                Todo-Lux
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-13-p2'
-                                    defaultMessage='GitHub User Finder, allows you to display all the user information you are looking for such as Last repositories, stars, followers and followed.'
+                                    defaultMessage='A web application built with Laravel, Livewire, and FilamentPHP. It manages project operations, databases, backups, data imports, and internal tasks.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/GitHub-User-Finder/" target="_blank">https://nahuel61920.github.io/GitHub-User-Finder/</a>
+                                <span>Link:</span> <a href="https://todo-lux.com/" target="_blank">https://todo-lux.com</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -401,9 +378,9 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/laravel/laravel-original.svg" alt="Laravel" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/livewire.svg" alt="Livewire" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/filament.svg" alt="FilamentPHP" />
                                 </div>
                             </div>
                         </div>
@@ -420,16 +397,16 @@ function ProjectApp() {
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-12.jpg`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                My paint
+                                Trash Nature
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-12-p2'
-                                    defaultMessage='A small paint that allows us to draw, change colors, edit the thickness of the line and erase the drawing made'
+                                    defaultMessage='A web and mobile application for waste characterization. Built with Laravel, Livewire, and Quasar Framework, including a backend and user interfaces.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Paint/" target="_blank">https://nahuel61920.github.io/Paint/</a>
+                                <span>Link:</span> <a href="https://proyectolibera.org/app-basuraleza-caracterizacion-residuos" target="_blank">https://proyectolibera.org/app-basuraleza-caracterizacion-residuos</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -439,9 +416,9 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/laravel/laravel-original.svg" alt="Laravel" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/livewire.svg" alt="Livewire" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/quasar.svg" alt="Quasar Framework" />
                                 </div>
                             </div>
                         </div>
@@ -458,16 +435,16 @@ function ProjectApp() {
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-11.jpg`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                Pokedex
+                                Solutec
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-11-p2'
-                                    defaultMessage='A pokedex created with the pokemon API, returns all the pokemons with their respective statistics, includes a pagination every 9 pokemons.'
+                                    defaultMessage='A web application updated with a new database and API. Built with Laravel, Laravel Sanctum, GitHub Actions, and Plesk, with testing and CI/CD.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Pokedex/" target="_blank">https://nahuel61920.github.io/Pokedex/</a>
+                                <span>Link:</span> <a href="https://solutec.pccom.ai" target="_blank">https://solutec.pccom.ai</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -477,10 +454,10 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/laravel/laravel-original.svg" alt="Laravel" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/laravel/laravel-original.svg" alt="Laravel Sanctum" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/githubactions.svg" alt="GitHub Actions" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/plesk.svg" alt="Plesk" />
                                 </div>
                             </div>
                         </div>
@@ -488,47 +465,7 @@ function ProjectApp() {
                 </div>
             </Modal>
 
-            <Modal
-                estado={estadoModal10}
-                cambiarEstado={cambiarEstadoModal10}
-            >
-                <div className="content-modal">
-                    <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-10.jpg`)} alt="" /></div>
-                        <div className="eins-modal-text">
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-10-p1'
-                                    defaultMessage='Client Manager'
-                                />
-                            </p>
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-10-p2'
-                                    defaultMessage='Authorizes you to take a shift to repair your cell phone, you can edit the shift if you wish.'
-                                />
-                            </p>
-                            <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Administrador-de-Clientes/" target="_blank">https://nahuel61920.github.io/Administrador-de-Clientes/</a>
-                            </div>
-                            <div className="eins-modal-text-3">
-                                <span>
-                                    <FormattedMessage
-                                        id='projects-tec'
-                                        defaultMessage='Used technology:'
-                                    />
-                                </span>
-                                <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Modal>
+       
 
             <Modal
                 estado={estadoModal9}
@@ -541,17 +478,17 @@ function ProjectApp() {
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-9-p1'
-                                    defaultMessage='Pomodoro app'
+                                    defaultMessage='TVRadar'
                                 />
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-9-p2'
-                                    defaultMessage='It allows you to add a task to complete it in 25 minutes and at the end rest 5 minutes.'
+                                    defaultMessage='A web app for tracking TV series. It helps users organize shows, premieres, watchlists, and family viewing.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Pomodoro/" target="_blank">https://nahuel61920.github.io/Pomodoro/</a>
+                                <span>Link:</span> <a href="https://watcha-ruby.vercel.app/" target="_blank">https://watcha-ruby.vercel.app</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -561,9 +498,11 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nextjs/nextjs-original.svg" alt="Next.js" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg" alt="TypeScript" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/framer.svg" alt="Framer Motion" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/sanity.svg" alt="Sanity" />
                                 </div>
                             </div>
                         </div>
@@ -582,17 +521,17 @@ function ProjectApp() {
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-8-p1'
-                                    defaultMessage='Weekly expenses'
+                                    defaultMessage='English Land'
                                 />
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-8-p2'
-                                    defaultMessage='You can calculate the expenses that you are going to make in the week, having a budget that you choose.'
+                                    defaultMessage='A bilingual website for children learning English. Built with Astro, it includes a simple, colorful design in English and Spanish'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Gastos-semanales/" target="_blank">https://nahuel61920.github.io/Gastos-semanales/</a>
+                                <span>Link:</span> <a href="https://englishland.vercel.app/en" target="_blank">https://englishland.vercel.app</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -602,10 +541,9 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/astro.svg" alt="Astro" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/vercel/vercel-original.svg" alt="Vercel" />
                                 </div>
                             </div>
                         </div>
@@ -624,17 +562,17 @@ function ProjectApp() {
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-7-p1'
-                                    defaultMessage='Quote insurance'
+                                    defaultMessage='Hackathon Team Matcher'
                                 />
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-7-p2'
-                                    defaultMessage='It allows you to calculate your car insurance, depending on the year and the insurance you choose.'
+                                    defaultMessage='A web app that helps developers find teammates for hackathons based on their skills and roles. Developed for the Midudev & Clerk Hackathon 2025.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Cotizador-de-seguros/" target="_blank">https://nahuel61920.github.io/Cotizador-de-seguros/</a>
+                                <span>Link:</span> <a href="https://hackathon-team-matcher.vercel.app" target="_blank">https://hackathon-team-matcher.vercel.app</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -644,10 +582,11 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/astro.svg" alt="Astro" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/vuejs/vuejs-original.svg" alt="VueJS" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/clerk.svg" alt="Clerk" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/supabase.svg" alt="Supabase" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" alt="TailwindCSS" />
                                 </div>
                             </div>
                         </div>
@@ -666,17 +605,17 @@ function ProjectApp() {
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-6-p1'
-                                    defaultMessage='Course cart'
+                                    defaultMessage='WebGL Backgrounds Generator'
                                 />
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-6-p2'
-                                    defaultMessage='It allows you to add a course to the cart, along with its description and value.'
+                                    defaultMessage='Bring your website to life with animated WebGL backgrounds. Generate, customize, and export mesmerizing visual effects in seconds—without writing a single line of shader code. Boost the "wow factor" of your projects.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Carrito-Cursos/" target="_blank">https://nahuel61920.github.io/Carrito-Cursos/</a>
+                                <span>Link:</span> <a href="https://background.mretamozo.com" target="_blank">https://background.mretamozo.com</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -686,10 +625,9 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/astro.svg" alt="Astro" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/tailwindcss/tailwindcss-original.svg" alt="TailwindCSS" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/threejs/threejs-original.svg" alt="Three.js" />
                                 </div>
                             </div>
                         </div>
@@ -708,17 +646,17 @@ function ProjectApp() {
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-5-p1'
-                                    defaultMessage='Tweet generator'
+                                    defaultMessage='Barreto Construcciones'
                                 />
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-5-p2'
-                                    defaultMessage='You can create tweets and delete them at will.'
+                                    defaultMessage='Transforming the digital presence of the construction sector. A high-performance landing page designed to convert visitors into clients, integrating Google Ads campaigns and advanced analytics to maximize ROI.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Tweets/" target="_blank">https://nahuel61920.github.io/Tweets/</a>
+                                <span>Link:</span> <a href="https://www.barretoconstrucciones.es" target="_blank">https://www.barretoconstrucciones.es</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -728,173 +666,9 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Modal>
-
-            <Modal
-                estado={estadoModal4}
-                cambiarEstado={cambiarEstadoModal4}
-            >
-                <div className="content-modal">
-                    <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-4.jpg`)} alt="" /></div>
-                        <div className="eins-modal-text">
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-4-p1'
-                                    defaultMessage='Car finder'
-                                />
-                            </p>
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-4-p2'
-                                    defaultMessage='It allows you to filter cars either by brand, year, price, doors, transmission and color.'
-                                />
-                            </p>
-                            <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Buscador-de-autos" target="_blank">https://nahuel61920.github.io/Buscador-de-autos</a>
-                            </div>
-                            <div className="eins-modal-text-3">
-                                <span>
-                                    <FormattedMessage
-                                        id='projects-tec'
-                                        defaultMessage='Used technology:'
-                                    />
-                                </span>
-                                <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Modal>
-
-            <Modal
-                estado={estadoModal3}
-                cambiarEstado={cambiarEstadoModal3}
-            >
-                <div className="content-modal">
-                    <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-3.jpg`)} alt="" /></div>
-                        <div className="eins-modal-text">
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-3-p1'
-                                    defaultMessage='form of needles in honey'
-                                />
-                            </p>
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-3-p2'
-                                    defaultMessage='Classic style form, which allows you to order a book.'
-                                />
-                            </p>
-                            <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/FormularioJs-Clasico/" target="_blank">https://nahuel61920.github.io/formularioJs-clasico/</a>
-                            </div>
-                            <div className="eins-modal-text-3">
-                                <span>
-                                    <FormattedMessage
-                                        id='projects-tec'
-                                        defaultMessage='Used technology:'
-                                    />
-                                </span>
-                                <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Modal>
-
-            <Modal
-                estado={estadoModal2}
-                cambiarEstado={cambiarEstadoModal2}
-            >
-                <div className="content-modal">
-                    <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-2.jpg`)} alt="" /></div>
-                        <div className="eins-modal-text">
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-2-p1'
-                                    defaultMessage='To-do list App'
-                                />
-                            </p>
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-2-p2'
-                                    defaultMessage='It allows you to add tasks, mark them as completed, and sort them from pending to completed.'
-                                />
-                            </p>
-                            <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/To-do-list/" target="_blank">https://nahuel61920.github.io/to-do-list/</a>
-                            </div>
-                            <div className="eins-modal-text-3">
-                                <span>
-                                    <FormattedMessage
-                                        id='projects-tec'
-                                        defaultMessage='Used technology:'
-                                    />
-                                </span>
-                                <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Modal>
-
-            <Modal
-                estado={estadoModal1}
-                cambiarEstado={cambiarEstadoModal1}
-            >
-                <div className="content-modal">
-                    <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-1.jpg`)} alt="" /></div>
-                        <div className="eins-modal-text">
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-1-p1'
-                                    defaultMessage='Calculate travel expenses'
-                                />
-                            </p>
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-1-p2'
-                                    defaultMessage='Calculator that allows you to estimate what you are going to spend on a trip to the destination that you indicate.'
-                                />
-                            </p>
-                            <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Calcular-gastos-de-viaje/" target="_blank">https://nahuel61920.github.io/calcular-gastos-de-viaje/</a>
-                            </div>
-                            <div className="eins-modal-text-3">
-                                <span>
-                                    <FormattedMessage
-                                        id='projects-tec'
-                                        defaultMessage='Used technology:'
-                                    />
-                                </span>
-                                <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/astro.svg" alt="Astro" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/resend.svg" alt="Resend" />
+                                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/googleads.svg" alt="Google Ads" />
                                 </div>
                             </div>
                         </div>

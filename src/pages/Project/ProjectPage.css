@@ -76,6 +76,10 @@
 
 /********************** Proyectos seccion **********************/
 
+main {
+  min-height: 87vh;
+}
+
 .mas-proyect {
   margin-top: 8rem;
 }
@@ -100,6 +104,15 @@
     "img-15	img-15	img-16	img-16  img-17	img-17";
   gap: 10px;
   margin-top: 6rem;
+}
+
+.projects__grid.games {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: none;
+}
+
+.projects__grid.games .projects__item {
+  grid-area: auto;
 }
 
 .proyecto-none {
@@ -245,7 +258,7 @@
 }
 
 .eins-modal-text-2 {
-  padding: 5rem 0 2rem;
+  padding: 2rem 0 2rem;
   font-size: 1.5rem!important;
 }
 

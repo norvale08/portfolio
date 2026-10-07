@@ -58,7 +58,7 @@ const Project = () => {
 
                         />
                         <div className="content">
-                            <h3>CoinPlus</h3>
+                            <h3>AUDITECHME APP</h3>
                             <p>
                                 Trading platform for cryptocurrencies
                             </p>
@@ -72,8 +72,7 @@ const Project = () => {
                                 <span> -</span> NodeJS
                                 <span> -</span> MongoDB
                             </p>
-                            <a href="https://coin-plus.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/CoinPlus" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://grctechme.com" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -83,19 +82,18 @@ const Project = () => {
 
                         />
                         <div className="content">
-                            <h3>Justice</h3>
+                            <h3>Rooftec</h3>
                             <p>
-                                lawyers website
+                                A WordPress website for a construction company. It shows their products and services, such as roofing, waterproofing, facades, and insulation.
                             </p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                                <span> -</span> jQuery
-                                <span> -</span> Bootstrap
+                                WordPress
+                                <span> -</span> Product Catalog
+                                <span> -</span> Construction
+                                <span> -</span> Commercial UX
+                                <span> -</span> SEO
                             </p>
-                            <a href="https://nahuel61920.github.io/Justice/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/Justice" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://rooftec.do/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -105,21 +103,17 @@ const Project = () => {
 
                         />
                         <div className="content">
-                            <h3>PI Dogs</h3>
+                            <h3>MOVIEXD - Movie Catalog with Vue</h3>
                             <p>
-                                Individual Project
+                               A web app that uses the TMDB API to show popular movies. It has a search feature, genre filters, and movie trailers.
                             </p>
                             <p className="tecnologias">
-                                React
-                                <span> -</span> CSS
-                                <span> -</span> Redux
-                                <span> -</span> NodeJS
-                                <span> -</span> ExpressJS
-                                <span> -</span> Sequelize
-                                <span> -</span> PostgreSQL
+                                Vue.js
+                                <span> -</span> JavaScript
+                                <span> -</span> CSS3
+                                <span> -</span> Vite
                             </p>
-                            <a href="https://pi-dogs-main-ashy.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/PI-DOGS-MAIN" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://pelisxd.netlify.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -128,17 +122,17 @@ const Project = () => {
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>Power Engine</h3>
+                            <h3>E-commerce</h3>
                             <p>
-                                Automobiles Website
+                                A demo e-commerce website built with Next.js. It connects to a GraphQL API to manage product data.
                             </p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
+                                Next.js
+                                <span> -</span> TypeScript
                                 <span> -</span> JavaScript
+                                <span> -</span> CSS3
                             </p>
-                            <a href="https://nahuel61920.github.io/Power-Engine/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/Power-Engine" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://my-ecommerce-five-pied.vercel.app" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -147,18 +141,17 @@ const Project = () => {
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>Spider-Man fan page</h3>
+                            <h3>Lumia Creators Web - Corporate Website</h3>
                             <p>
-                                Fan page Spider-Man
+                                A modern corporate website for a studio with a custom video player, smooth carousels, and a secure contact form.
                             </p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                                <span> -</span> Bootstrap
+                                Astro
+                                <span> -</span> TypeScript
+                                <span> -</span> Tailwind CSS
+                                <span> -</span> Vercel
                             </p>
-                            <a href="https://nahuel61920.github.io/Spider-Man/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/Spider-Man" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://www.lumiacreators.com/en/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -167,18 +160,17 @@ const Project = () => {
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>EveryRunnig</h3>
+                            <h3>Tourist Information Desk</h3>
                             <p>
-                                Website shoes
+                                A platform for managing and promoting tourism in Loja. It includes tourism events, destinations, and website customization tools.
                             </p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                                <span> -</span> Bootstrap
+                                Odoo
+                                <span> -</span> Python
+                                <span> -</span> HTML5
+                                <span> -</span> Sass / SCSS
                             </p>
-                            <a href="https://nahuel61920.github.io/EveryRunning/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/EveryRunning" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://mesaturisticaloja.com" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -187,9 +179,9 @@ const Project = () => {
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>Premier Food</h3>
+                            <h3>Lumia Creators - Events and Mods in Java</h3>
                             <p>
-                                Fast food
+                                A game development project with custom mechanics for interactive events and miniseries. Built with Java, Datapacks, and mods.
                             </p>
                             <p className="tecnologias">
                                 HTML5
@@ -197,8 +189,7 @@ const Project = () => {
                                 <span> -</span> JavaScript
                                 <span> -</span> Sass
                             </p>
-                            <a href="https://nahuel61920.github.io/PremierFood/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/PremierFood" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://www.lumiacreators.com/es/proyectos/elreto/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -207,18 +198,16 @@ const Project = () => {
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>ShopTec</h3>
+                            <h3>D2B - Official Website</h3>
                             <p>
-                                Ecommerce
+                                A corporate website for D2B that shows its services, team, and projects. It also includes a contact form.
                             </p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> Sass
+                                Astro
                                 <span> -</span> JavaScript
+                                <span> -</span> Shell / Bash
                             </p>
-                            <a href="https://nahuel61920.github.io/shop-tec/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/shop-tec" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://mesaturisticaloja.com" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -227,17 +216,18 @@ const Project = () => {
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>Elegant Hand</h3>
+                            <h3>I2TEC Website</h3>
                             <p>
-                                Watch Shop
+                                A website for I2TEC that shows technology projects and solutions.
                             </p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
+                                Astro
+                                <span> -</span> TypeScript
                                 <span> -</span> JavaScript
+                                <span> -</span> Tailwind CSS
+                                <span> -</span> CSS3
                             </p>
-                            <a href="https://nahuel61920.github.io/ElegantHand/ " className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/ElegantHand" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://i2tec.ec/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -246,17 +236,16 @@ const Project = () => {
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>Vida en papel</h3>
+                            <h3>HastenIP</h3>
                             <p>
-                                Bookstore
+                                A WordPress website for HastenIP. We improved the original design and finished the website.
                             </p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
+                                WordPress
+                                <span> -</span> HTML5
+                                <span> -</span> CSS3
                             </p>
-                            <a href="https://nahuel61920.github.io/vida-en-papel/ " className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/vida-en-papel" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://hastenip.com/ " className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -265,17 +254,14 @@ const Project = () => {
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>Plus Anime</h3>
+                            <h3>Metflix</h3>
                             <p>
-                                Anime website
+                                A Netflix-style website built with Astro, TypeScript, and Tailwind CSS. It shows movies and loads content dynamically.
                             </p>
                             <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
+                                Astro
                             </p>
-                            <a href="https://nahuel61920.github.io/PlusAnime/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/PlusAnime" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://metflix-ten.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                         </div>
                     </SwiperSlide>
                 </Swiper>
